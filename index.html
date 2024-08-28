@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- tailwind css cdn -->
+
+    <!-- google front -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+    <!-- google front -->
+
+
+
+    <!-- front awsome cdn -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- front awsome cdn -->
+
+    <!-- daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui cdn -->
+  </head>
+
+
+  
+  <body class="bg-[#1c4b1c] libre-baskerville-regular">
+    <!-- header -->
+    <header class="pt-10 pl-[70px] pr-[70px] home">
+      <!-- nav -->
+      <nav class="flex justify-between items-center justify-center">
+        <!-- logo -->
+        <div class="text-[#ffffff] font-black text-[22px] cursor-pointer">
+          IndorePlants
+        </div>
+        <!-- logo -->
+
+        <!-- nav LInks -->
+        <div>
+          <ul class="flex">
+            <li
+              class="p-5 text-[18px] text-[#ffffff] font-bold hover:text-amber-500"
+            >
+              <a href="#Home">Home</a>
+            </li>
+            <li
+              class="p-5 text-[18px] text-[#ffffff] font-bold hover:text-amber-500"
+            >
+              <a href="#">About</a>
+            </li>
+            <li
+              class="p-5 text-[18px] text-[#ffffff] font-bold hover:text-amber-500"
+            >
+              <a href="#">Popular</a>
+            </li>
+            <li
+              class="p-5 text-[18px] text-[#ffffff] font-bold hover:text-amber-500"
+            >
+              <a href="#">Review</a>
+            </li>
+          </ul>
+        </div>
+        <!-- nav LInks -->
+      </nav>
+      <!-- nav -->
+
+      <!-- banner -->
+      <!-- banner container -->
+      <div class="flex justify-between pt-10 gap-20">
+        <!--banner content  -->
+        <div class="w-[50%]">
+          <h1 class="text-[#ffffff] text-[48px] font-black pb-5">
+            <span class="text-amber-500">Plants </span> make a<br />positive
+            <span class="text-amber-500">impact</span> on <br />
+            your environment
+          </h1>
+
+          <p class="text-[#ffffff] text-[16px pb-5 leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            maiores molestias soluta voluptatibus aut cum ipsam dolorum
+            inventore id harum?
+          </p>
+
+          <div>
+            <button class="btn mr-5 bg-amber-500 border-none">Shop Now</button>
+            <button
+              class="btn bg-transparent text-[#ffffff] hover:bg-amber-500 hover:text-[black] border-[2px solid amber-500]"
+            >
+              Know More
+            </button>
+          </div>
+        </div>
+        <!--banner content  -->
+
+        <!-- banner images -->
+        <div class="w-[50%]">
+          <img class="w-[500px]" src="./assets/img/home.png" alt="" />
+        </div>
+        <!-- banner images -->
+      </div>
+      <!-- banner container -->
+      <!-- banner -->
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+      <section class="bg-[#ffffff] pt-20 pl-[70px] pr-[70px]  pb-20">
+        <!-- container -->
+        <div class="grid grid-cols-4 gap-4 ">
+          <div class="p-5 border-2">
+            <h2 class="text-[22px] pb-2 text-[#1c4b1c] font-extrabold">Fast Delivery</h2>
+            <p class="text-[#1c4b1c]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              culpa fugiat ad quas, quaerat earum!
+            </p>
+          </div>
+
+          <div class="p-5 border-2">
+            <h2 class="text-[22px] pb-2 text-[#1c4b1c] font-extrabold">Great Customer Service</h2>
+            <p class="text-[#1c4b1c]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              culpa fugiat ad quas, quaerat earum!
+            </p>
+          </div>
+
+          <div class="p-5 border-2">
+            <h2 class="text-[22px] pb-2 text-[#1c4b1c] font-extrabold">Original Plants</h2>
+            <p class="text-[#1c4b1c]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              culpa fugiat ad quas, quaerat earum!
+            </p>
+          </div>
+
+          <div class="p-5 border-2">
+            <h2 class="text-[22px] pb-2 text-[#1c4b1c] font-extrabold">Affordable Price</h2>
+            <p class="text-[#1c4b1c]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              culpa fugiat ad quas, quaerat earum!
+            </p>
+          </div>
+
+        </div>
+        <!-- container -->
+      </section>
+
+
+      <!-- about us section -->
+       <section class=" pt-20 pl-[70px] pr-[70px]  pb-20">
+          <!-- container -->
+           <div >
+               <h2 class="text-center text-[24px] text-amber-500 pb-4 font-black">About US</h2>
+               <p class="text-center text-[#ffffff] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat! Vel nesciunt possimus, nulla repellendus voluptatibus delectus debitis iure itaque quisquam ab quam, minima aliquid illo saepe voluptates perferendis minus.</p>
+
+
+               <!-- box -->
+
+               <div>
+
+                  <!-- box-1 -->
+                    <div class="flex items-center justify-center">
+                         <!-- images -->
+                          <div class="w-[40%]"><img src="./assets/img/plant-1.png" alt=""></div>
+                         <!-- images -->
+
+                         <!-- content -->
+                          <div class="w-[60%]">
+                            <h2 class="text-[22px] pb-2 text-[#ffffff] font-extrabold">Make Your <span class="text-amber-500">organic</span> <br>garden</h2>
+
+                            <p class="text-[#ffffff] leading-7" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iste odio. Voluptate consequatur officiis magnam delectus possimus pariatur consequuntur iusto harum impedit explicabo tempora at nulla iste, dolorem reprehenderit saepe deserunt tempore? Perferendis non, doloremque voluptates recusandae dolor maiores? Nam nemo sint adipisci animi at voluptates error possimus, odio eligendi repudiandae dolorum! Porro quis impedit hic vero praesentium dicta non placeat corporis, veritatis fugiat tempora enim voluptatum, error culpa id!
+                            </p>
+                          </div>
+                         <!-- content -->
+
+                         
+                    </div>
+
+          <!-- box-2 -->
+          <div class="flex items-center justify-center">
+           
+
+            <!-- content -->
+             <div class="w-[60%]">
+               <h2 class="text-[22px] pb-2 text-[#ffffff] font-extrabold">Come with us <br><span class="text-amber-500">grow up</span> your plant</h2>
+
+               <p class="text-[#ffffff] leading-7" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iste odio. Voluptate consequatur officiis magnam delectus possimus pariatur consequuntur iusto harum impedit explicabo tempora at nulla iste, dolorem reprehenderit saepe deserunt tempore? Perferendis non, doloremque voluptates recusandae dolor maiores? Nam nemo sint adipisci animi at voluptates error possimus, odio eligendi repudiandae dolorum! Porro quis impedit hic vero praesentium dicta non placeat corporis, veritatis fugiat tempora enim voluptatum, error culpa id!
+               </p>
+             </div>
+            <!-- content -->
+
+             <!-- images -->
+             <div class="w-[40%]"><img src="./assets/img/plant-2.png" alt=""></div>
+            <!-- images -->
+
+            
+       </div>
+                   
+               </div>
+
+
+               
+           </div>
+          <!-- container -->
+       </section>
+      <!-- about us section -->
+
+
+
+      <!--card section  -->
+      <section class=" pt-20 pl-[70px] pr-[70px]  pb-20 bg-[#6DA06F]">
+          <!-- container -->
+           <div>
+            <h2 class="text-center text-[24px] text-amber-500 pb-4 font-black">About US</h2>
+            <p class="text-center text-[#ffffff] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat! Vel nesciunt possimus, nulla repellendus voluptatibus delectus debitis iure itaque quisquam ab quam, minima aliquid illo saepe voluptates perferendis minus.</p>
+
+
+
+            <!-- card -->
+             <div class="grid grid-cols-4 gap-4 pt-10">
+              
+              <!-- card 1 -->
+                 <div class="bg-[#1c4b1c] p-10 rounded-[15px]">
+                      <div>
+                         <img src="./assets/img/cart-1.png" alt="">
+                      </div>
+
+                      <div>
+                           <h4 class="text-[#ffffff] text-center pb-[5px] ">Naphrolepis exaltata</h4>
+                            <h2 class="text-[24px] text-amber-500 text-center pb-[5px]">Boston Fern</h2>
+                             
+                           <div class="text-center pb-[5px] ">
+                            <i class="fa-solid fa-star text-amber-500"></i>
+                            <i class="fa-solid fa-star text-amber-500"></i>
+                            <i class="fa-solid fa-star text-amber-500"></i>
+                            <i class="fa-solid fa-star text-amber-500"></i>
+                            <i class="fa-solid fa-star"></i>
+                           </div> 
+ 
+                           <div class="flex justify-between pt-[5px]">
+                              <div class="text-[20px] text-[#FFFFFF]">$5</div>
+                              <div class="" ><i class="fa-solid fa-cart-shopping text-[#FFFFFF] bg-amber-500 p-[5px] "></i></div>
+                           </div>
+                         
+
+                      </div>
+                 </div>
+              <!-- card 1 -->
+
+
+              <!-- card 2  -->
+              <div class="bg-[#1c4b1c] p-10 rounded-[15px]">
+                <div>
+                   <img src="./assets/img/cart-2.png" alt="">
+                </div>
+
+                <div>
+                     <h4 class="text-[#ffffff] text-center pb-[5px] ">Naphrolepis exaltata</h4>
+                      <h2 class="text-[24px] text-amber-500 text-center pb-[5px]">Boston Fern</h2>
+                       
+                     <div class="text-center pb-[5px] ">
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star"></i>
+                     </div> 
+
+                     <div class="flex justify-between pt-[5px]">
+                        <div class="text-[20px] text-[#FFFFFF]">$9</div>
+                        <div class="" ><i class="fa-solid fa-cart-shopping text-[#FFFFFF] bg-amber-500 p-[5px] "></i></div>
+                     </div>
+                   
+
+                </div>
+           </div>
+              <!-- card 2  -->
+
+
+
+
+              <!-- card 3  -->
+              <div class="bg-[#1c4b1c] p-10 rounded-[15px]">
+                <div>
+                   <img src="./assets/img/cart-3.png" alt="">
+                </div>
+
+                <div>
+                     <h4 class="text-[#ffffff] text-center pb-[5px] ">Naphrolepis exaltata</h4>
+                      <h2 class="text-[24px] text-amber-500 text-center pb-[5px]">Boston Fern</h2>
+                       
+                     <div class="text-center pb-[5px] ">
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star"></i>
+                     </div> 
+
+                     <div class="flex justify-between pt-[5px]">
+                        <div class="text-[20px] text-[#FFFFFF]">$13</div>
+                        <div class="" ><i class="fa-solid fa-cart-shopping text-[#FFFFFF] bg-amber-500 p-[5px] "></i></div>
+                     </div>
+                   
+
+                </div>
+           </div>
+              <!-- card 3  -->
+              
+
+
+
+              <!-- card 4 -->
+              <div class="bg-[#1c4b1c] p-10 rounded-[15px]">
+                <div>
+                   <img src="./assets/img/cart-4.png" alt="">
+                </div>
+
+                <div>
+                     <h4 class="text-[#ffffff] text-center pb-[5px] ">Naphrolepis exaltata</h4>
+                      <h2 class="text-[24px] text-amber-500 text-center pb-[5px]">Boston Fern</h2>
+                       
+                     <div class="text-center pb-[5px] ">
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star text-amber-500"></i>
+                      <i class="fa-solid fa-star"></i>
+                     </div> 
+
+                     <div class="flex justify-between pt-[5px]">
+                        <div class="text-[20px] text-[#FFFFFF]">$15</div>
+                        <div class="" ><i class="fa-solid fa-cart-shopping text-[#FFFFFF] bg-amber-500 p-[5px] "></i></div>
+                     </div>
+                   
+
+                </div>
+           </div>
+              <!-- card 4 -->
+            </div>   
+            <!-- card -->
+          <!-- container -->
+      </section>
+      <!--card section  -->
+
+
+
+
+      <!-- customar Review -->
+       <section  class="pb-20">
+             <img class="w-[200px] absolute" src="./assets/img/leaf-4.png" alt="">
+       
+            <div class=" pt-20 pl-[70px] pr-[70px]  pb-20 relative">
+              <h2 class="text-center text-[24px] text-amber-500 pb-4 font-black">Customer Review</h2>
+              <p class="text-center text-[#ffffff] leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat! Vel nesciunt possimus,<br> nulla repellendus voluptatibus delectus debitis iure itaque quisquam ab quam, <br> minima aliquid illo saepe voluptates perferendis minus.</p>
+      
+
+            <!-- carousel -->
+            <div class="carousel w-full pt-10">
+
+              <div id="item1" class="carousel-item w-full">
+                 
+                <div class="flex flex-row gap-5 bg-[#6DA06F] p-10 rounded-[20px] items-center justify-center">
+                     <div class="w-[30%]"><img class="w-[300px] rounded-[20px]" src="./assets/img/review-1.jpg" alt=""></div>
+                     <div class="w-[20%]">
+                         <h4 class="text-[24px] text-[#ffffff] font-black pb-[10px]">JHONE DOE</h4>
+                         <p>Web Designer</p>
+
+
+                     </div>
+
+
+
+                     <div class="w-[50%] ">
+                       <p class="leading-7">A Web Designer, or Web Applications Designer, is responsible for designing the overall layout and aesthetic for websites. Their duties include coding webpages or entire websites, meeting with clients to review website templates or refine their designs and running tests to preview layouts and website features. <p>
+                     </div>
+                </div>
+
+              </div>
+
+
+              <div id="item2" class="carousel-item w-full">
+                <div class="flex flex-row gap-5 bg-[#6DA06F] p-10 rounded-[20px] items-center justify-center">
+                  <div class="w-[30%]"><img class="w-[300px] rounded-[20px]" src="./assets/img/review-2.jpg" alt=""></div>
+                  <div class="w-[20%]">
+                      <h4 class="text-[24px] text-[#ffffff] font-black pb-[10px]">	Smith Jones</h4>
+                      <p>Grapich Designer</p>
+
+
+                  </div>
+
+
+
+                  <div class="w-[50%] ">
+                    <p class="leading-7">Graphic designers create visual communications such as adverts, branding, publicity materials and magazine layouts. Graphic designers (who may also be known as graphic artists) utilise graphic design skills to create media products such as magazines, labels, advertising and signage <p>
+                  </div>
+             </div>
+              </div>
+
+
+
+              <div id="item3" class="carousel-item w-full">
+                <div class="flex flex-row gap-5 bg-[#6DA06F] p-10 rounded-[20px] items-center justify-center">
+                  <div class="w-[30%]"><img class="w-[300px] rounded-[20px]" src="./assets/img/review-3.jpg" alt=""></div>
+                  <div class="w-[20%]">
+                      <h4 class="text-[24px] text-[#ffffff] font-black pb-[10px]">Martin Brown</h4>
+                      <p>Full-stack developers</p>
+
+
+                  </div>
+
+
+
+                  <div class="w-[50%] ">
+                    <p class="leading-7">As a full-stack developer, you will work as part of a team to implement new features, as well as make modifications and fix bugs in existing code. Your duties will include designing and developing layouts, writing code to power the underlying functionality of the website, and developing tests for the code you write. <p>
+                  </div>
+             </div>
+              </div>
+
+
+
+              <div id="item4" class="carousel-item w-full">
+                <div class="flex flex-row gap-5 bg-[#6DA06F] p-10 rounded-[20px] items-center justify-center">
+                  <div class="w-[30%]"><img class="w-[300px] rounded-[20px]" src="./assets/img/review-4.jpg" alt=""></div>
+                  <div class="w-[20%]">
+                      <h4 class="text-[24px] text-[#ffffff] font-black pb-[10px]">Emma Oliver</h4>
+                      <p>MERN Stack</p>
+
+
+                  </div>
+
+
+
+                  <div class="w-[50%] ">
+                    <p class="leading-7">MERN Stack Developers are tasked with overseeing the complete software development lifecycle. Their responsibilities include creating efficient, testable code to meet specific requirements and ensure operational effectiveness.Mean stack developers perform several duties, such as: Delivering and designing web solutions on high-level architecture. Developing push notifications and other interactive web features. Building interactive consumer data through a variety of systems and RESTfully abstract to the user interface with a Node <p>
+                  </div>
+             </div>
+              </div>
+
+
+
+            </div>
+            <div class="flex w-full justify-center gap-2 py-2">
+              <a href="#item1" class="btn btn-xs">1</a>
+              <a href="#item2" class="btn btn-xs">2</a>
+              <a href="#item3" class="btn btn-xs">3</a>
+              <a href="#item4" class="btn btn-xs">4</a>
+            </div>
+            <!-- carousel -->
+
+
+
+
+
+
+
+
+
+            </div>
+       </section>
+      <!-- customar Review -->
+
+    </main>
+    <!-- main -->
+
+    <!-- footer -->
+     <footer class=" pt-20 pl-[70px] pr-[70px]  bg-yellow-100 ">
+        <div class=" bg-[#1c4b1c] p-10 mb-10 rounded-[20px]">
+           <h2 class="text-[24px] text-[#ffffff] font-black pb-[10px]"><span class="text-2xl font-black text-amber-500">Subscribe</span> to our newsletter</h2>
+           <div class="flex flex-row gap-[10px]">
+             <input class="w-[80%] p-[10px] rounded-[10px]" type="email " placeholder="Your Email Adress ">
+             <input class="w-[20%] text-[#ffffff]  bg-[#6DA06F] rounded-[10px] "  type="submit" placeholder="Subscribe">
+           </div>    
+        </div>
+
+
+      <div class="grid grid-cols-4 gap-6 pt-[25px] pb-[50px]">
+            <div class="flex flex-col">
+              <div><img class="w-[200px]" src="./assets/img/leaf-1.png" alt=""></div>
+             <div> <h2 class="text-2xl font-black text-amber-500">indorePlants</h2></div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+               <h2 class="text-2xl font-black text-amber-500">Quick Link</h2>
+               <a href="#">Plants</a>
+               <a href="#">Flowers</a>
+               <a href="#">Gerdening</a>
+               <a href="#">Seeds</a>
+               <a href="#">Shipping</a>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <h2 class="text-2xl font-black text-amber-500">Popular Services</h2>
+              <a href="#">Tree Planting</a>
+              <a href="#">Grass Cutting</a>
+              <a href="#">Weeds Cutting</a>
+              <a href="#">Project</a>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              <h2 class="text-2xl font-black text-amber-500">Contact US</h2>
+              <a href="#">+88 333 78 901</a>
+              <a href="#">samsul76@gmail.com</a>
+              <a href="#">Weeds Cutting</a>
+              <a href="#">Project</a>
+            </div>
+
+      </div>
+
+     </footer>
+    <!-- footer -->
+  </body>
+</html>
